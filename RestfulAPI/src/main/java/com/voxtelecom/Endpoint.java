@@ -268,7 +268,9 @@ public class Endpoint {
 		System.out.println("Hello: " + i);
 		try {
 			Class.forName(myDriver);
+
 			con = DriverManager.getConnection(url, root, pass);
+
 			ps = con.prepareStatement(query);
 			ps.setString(1, order.getOrderDate());
 			ps.setString(2, order.getCollectionDate());
