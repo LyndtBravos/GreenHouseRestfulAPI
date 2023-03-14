@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/asm-3.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/commons-logging-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/genson-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/jakarta.activation-api-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/jakarta.xml.bind-api-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/javax.xml.bind.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/jaxb-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/jaxb-impl-2.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/jersey-bundle-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/jersey-core-1.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/jersey-core-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/jersey-json-1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Documents/Apps/jaxrs-ri/Jersey Jars/TK-Supplied Jars/jersey-server-1.18.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
