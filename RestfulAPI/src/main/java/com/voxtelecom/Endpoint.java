@@ -104,7 +104,7 @@ public class Endpoint {
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("/addOrder")
 	public void addOrder(Order order) {
-		postOrder(order);
+		newOrder(order);
 	}
 	
 	@PUT
@@ -256,7 +256,7 @@ public class Endpoint {
 		}
 	}
 	
-	public void postOrder(Order order) {
+	public void newOrder(Order order) {
 		Connection con = null;
 		PreparedStatement ps = null;
 		String myDriver = "com.mysql.cj.jdbc.Driver";
