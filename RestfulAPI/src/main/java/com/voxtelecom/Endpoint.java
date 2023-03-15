@@ -21,6 +21,37 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/display")
 public class Endpoint {
+
+	//Querries to run to create database
+	/*
+
+	CREATE TABLE `doughnutassessment`.`clients` (
+  `ClientsID` INT NOT NULL AUTO_INCREMENT,
+  `first_name` VARCHAR(45) NOT NULL,
+  `last_name` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`ClientsID`));
+
+  CREATE TABLE `doughnutassessment`.`orders` (
+  `idorders` INT NOT NULL AUTO_INCREMENT,
+  `order_date` DATE NULL,
+  `collection_date` DATE NULL,
+  `doughnuts_ordered` INT NULL,
+  `topping_type` VARCHAR(45) NULL,
+  `Client_ID` INT NULL,
+  PRIMARY KEY (`idorders`),
+  UNIQUE INDEX `idorders_UNIQUE` (`idorders` ASC),
+  INDEX `ClientID_idx` (`Client_ID` ASC),
+  CONSTRAINT `ClientID`
+		FOREIGN KEY (`Client_ID`)
+		REFERENCES `doughnutassessment`.`clients` (`ClientsID`)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION);
+
+	CREATE SCHEMA `doughnutassessment` ;
+
+	 */
+
+
 	@GET
 	@Path("/sayHie")
 	@Produces(MediaType.APPLICATION_JSON)
